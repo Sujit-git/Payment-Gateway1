@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "heroku-postbuild": "cd client && npm install && npm install && npm run build",
+    "heroku-postbuild": "cd Client && npm install && npm install && npm run build",
     "start": "nodemon app.js ",
     "Client": "cd Client && npm start",
     "build": "cd Client && npm run build",
